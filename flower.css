@@ -9,7 +9,7 @@
 .noto-serif-font2 {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -122,6 +122,34 @@ body{
 .plant-card button{
     width: 100%;
 }
+
+/* plant lover related styles */
+.plants-lover-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 220px;
+    gap: 60px;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    
+
+
+}
+
+.plant-lover-title {
+    font-size: 3.15rem;
+}
+#plant-lover-badge{
+    position: absolute ;
+    top: -30%;
+    left: 35%;
+    width: 300px; 
+    height: auto; 
+          
+}
+
 
 
 /* responsive media query */
