@@ -95,6 +95,9 @@ body{
     text-align: center;
 
 }
+.plant-container .title{
+    font-size: 3.2rem;
+}
 .sub-title {
     max-width: 888px;
     margin: 0 auto;
@@ -137,7 +140,7 @@ body{
 }
 
 .plant-lover-title {
-    font-size: 3.15rem;
+    font-size: 3.20rem;
 }
 #plant-lover-badge{
     position: absolute ;
@@ -216,6 +219,7 @@ body{
 .latest-deal-image3 h2, .latest-deal-image3 a{
     color: WHite;
 }
+
 .latest-deal-image{
     display: grid;
     grid-template-columns: .35fr .65fr;
