@@ -42,9 +42,6 @@ body{
 }
 
 
-
-
-
 /* header style */
 /* navbar style */
 
@@ -247,7 +244,45 @@ body{
 } */
 
 
+/* join section styles */
+.join{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    /* max-width: 1440px; */
+    height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    margin: 120px auto;
+    max-width: 100%;
 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.join-title{
+    font-size: 3.2rem;
+    color: white;
+   
+}
+.join div{
+    /* max-width: 830px; */
+    display: flex;
+    align-items: center;
+}
+.join input[type="email"]{
+    height: 50px;
+    width: 650px;
+    padding: 3px 3px;
+    
+    
+}
+.join button{
+    width: 30%;
+}
 
 
 
@@ -331,6 +366,28 @@ body{
     .latest-deal-image{
         grid-template-columns: repeat(1,1fr);
     }
+
+    /* join section */
+    .join{
+        /* the image was add as background in the join class */
+        margin-top: 300px;
+        height: 320px; 
+        max-width: 100%;
+    }
+    .join-title{
+        font-size: 1.25rem;
+    }
+    .join div{
+        max-width: 80%;
+        max-height: auto;
+    }
+    .join button{
+        padding: 17px 17px;
+    }
+    .join input[type="email"]{
+     padding: 0px 0px;    
+    }
+    
    
    
   
